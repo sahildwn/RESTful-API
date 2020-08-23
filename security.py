@@ -2,8 +2,8 @@ from werkzeug.security import safe_str_cmp
 from user import User
 
 users = [
-    User(1, 'sahil', '123456'),
-    User(2, 'diwan', 'abcxyz'),
+    User(1, '--insert_your_username1--', '--insert_your_pw--'),
+    User(2, '--insert_your_username2--', '--insert_your_pw--'),
 ]
 
 username_table = {u.username: u for u in users}
